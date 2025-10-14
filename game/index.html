@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="timer-bar"></div>
+        <div class="header">
+            <h1 id="pair-title">BTC/USDT</h1>
+        </div>
+
+        <div class="chart-container">
+            <img id="chart-image" src="" alt="Trading Chart">
+        </div>
+
+        <div class="analysis-container">
+            <div class="analysis-box">
+                <h2>Technical Analysis</h2>
+                <p id="ta-text"></p>
+            </div>
+            <div class="analysis-box">
+                <h2>Fundamental Analysis</h2>
+                <p id="fa-text"></p>
+            </div>
+        </div>
+
+        <div class="action-container">
+            <button id="buy-button" class="action-button buy">BUY</button>
+            <button id="sell-button" class="action-button sell">SELL</button>
+        </div>
+    </div>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
